@@ -50,7 +50,7 @@ endmodule
 module EXP2B(w,x,y,z,f2);
 input w,x,y,z;
 output f2;
-assign f2= ((~y&z)|(w&z)|(x&y)|);
+assign f2= ((~y&z)|(w&z)|(x&y));
 endmodule
 ~~~
 **RTL realization**
